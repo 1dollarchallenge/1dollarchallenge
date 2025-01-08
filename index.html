@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 Dollar Challenge</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f7f6;
+            color: #333;
+        }
+
+        header {
+            background: #ffcccb;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        nav ul li a:hover {
+            color: #ff5722;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1600x600');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin: 10px 0 20px;
+        }
+
+        .hero button {
+            background: #ff5722;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background: #e64a19;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #ff5722;
+        }
+
+        .stories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .story {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .story img {
+            width: 100%;
+            height: auto;
+        }
+
+        .story h3 {
+            padding: 15px;
+            margin: 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .story p {
+            padding: 0 15px 15px;
+            margin: 0;
+            color: #555;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #ffcccb;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>1 Dollar Challenge</h1>
+    <nav>
+        <ul>
+            <li><a href="#stories">Impact Stories</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>Change a Life with Just $1</h2>
+    <p>Small donations, big impact.</p>
+    <button onclick="window.location.href='https://yourdonationplatform.com'">Donate Now</button>
+</div>
+
+<section class="section" id="stories">
+    <h2>Recent Impact Stories</h2>
+    <div class="stories">
+        <div class="story">
+            <img src="https://via.placeholder.com/300x200" alt="A family smiling together">
+            <h3>The Smith Family</h3>
+            <p>Thanks to your generosity, the Smith family was able to rebuild their lives after a natural disaster.</p>
+        </div>
+        <div class="story">
+            <img src="https://via.placeholder.com/300x200" alt="A student receiving supplies">
+            <h3>Anna's Education</h3>
+            <p>Anna received the school supplies she needed to excel in her studies. Together, we’re making dreams possible.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="faq">
+    <h2>FAQ - Frequently Asked Questions</h2>
+    <p><strong>Where does my money go?</strong> 100% of your donations go directly to funding projects for individuals or families in need.</p>
+    <p><strong>Can I choose who receives my donation?</strong> Donations are pooled into a collective fund, and we select beneficiaries based on their submissions and needs.</p>
+    <p><strong>Are my donations tax-deductible?</strong> This depends on your country. Please consult a tax professional for guidance.</p>
+</section>
+
+<section class="section" id="about">
+    <h2>About Us</h2>
+    <p>The 1 Dollar Challenge was created with one simple goal: to change lives, one dollar at a time. Our mission is to bring hope, joy, and opportunities to those who need it most by pooling small donations to create a big impact.</p>
+    <p>We believe in transparency, community, and the power of kindness. Together, we can make dreams come true for individuals, families, and communities worldwide.</p>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have questions, want to submit feedback, or need assistance, feel free to reach out:</p>
+    <p>Email: <a href="mailto:contact@1dollarchallenge.com">contact@1dollarchallenge.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 1 Dollar Challenge. All rights reserved. <a href="#">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
